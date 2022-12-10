@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Dancing_image = () => {
+const DancingImage = () => {
     return (
         <div className='md:block hidden w-6/12 max-w-[300px]'>
             <img src='./items/video/dancing/dancer.png' alt=' ' />
@@ -9,4 +9,4 @@ const Dancing_image = () => {
     )
 }
 
-export default Dancing_image
+export default DancingImage

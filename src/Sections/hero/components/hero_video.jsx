@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Hero_text = () => {
+const HeroVideo = () => {
     return (
         <div className='w-7/12 hidden md:block'>
             <video src='./items/hero/video/hero.mp4' alt=' ' className='rounded-[40px]' />
@@ -9,4 +9,4 @@ const Hero_text = () => {
     )
 }
 
-export default Hero_text
+export default HeroVideo

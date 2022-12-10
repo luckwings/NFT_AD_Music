@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Dancing_text = () => {
+const DancingText = () => {
     return (
         <div className='md:w-6/12 relative max-w-[350px]'>
             <div className='flex mb-5'>
@@ -16,4 +16,4 @@ const Dancing_text = () => {
     )
 }
 
-export default Dancing_text
+export default DancingText

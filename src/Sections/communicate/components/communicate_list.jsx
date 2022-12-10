@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Communicate_list = () => {
+const CommunicateList = () => {
     return (
         <div className='text-[65px] font-bold'>
             <p className='mb-[15px]'>Stream</p>
@@ -10,4 +10,4 @@ const Communicate_list = () => {
     )
 }
 
-export default Communicate_list
+export default CommunicateList

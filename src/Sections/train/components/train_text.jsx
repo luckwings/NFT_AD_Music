@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Train_text = () => {
+const TrainText = () => {
     return (
         <div className='w-5/12'>
             
@@ -8,4 +8,4 @@ const Train_text = () => {
     )
 }
 
-export default Train_text
+export default TrainText

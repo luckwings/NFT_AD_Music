@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Stream_text = () => {
+const StreamText = () => {
     return (
         <div className='text-center'>
             <p className='text-5xl xl:text-7xl font-extrabold mb-5'>Stream</p>
@@ -8,4 +8,4 @@ const Stream_text = () => {
     )
 }
 
-export default Stream_text
+export default StreamText

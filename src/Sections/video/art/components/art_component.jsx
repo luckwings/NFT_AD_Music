@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Art_component = () => {
+const ArtComponent = () => {
     return (
         <div className='relative w-6/12 md:block hidden pr-10 max-w-[300px]'>
             <img src='./items/video/art/SS.png' alt=' ' className='absolute right-[50px] top-[100px]' />
@@ -9,4 +9,4 @@ const Art_component = () => {
     )
 }
 
-export default Art_component
+export default ArtComponent

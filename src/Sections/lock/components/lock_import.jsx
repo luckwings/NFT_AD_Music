@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Lock_import = () => {
+const LockImport = () => {
     return(
         <div className='text-center relative mb-[40px] md:px-[100px] lg:px-[200px] xl:px-[300px]'>
             <p className='text-[65px] font-bold'>Lock-up your handle now!</p>
@@ -13,4 +13,4 @@ const Lock_import = () => {
     )
 }
 
-export default Lock_import
+export default LockImport

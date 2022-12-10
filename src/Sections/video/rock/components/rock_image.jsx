@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Rock_image = () => {
+const RockImage = () => {
     return (
         <div className='w-6/12 max-w-[300px]'>
             <img src='./items/video/rock/square.png' alt=' ' />
@@ -8,4 +8,4 @@ const Rock_image = () => {
     )
 }
 
-export default Rock_image
+export default RockImage

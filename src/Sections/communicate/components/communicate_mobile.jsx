@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Communicate_mobile = () => {
+const CommunicateMobile = () => {
     return (
         <div>
             <img src='./items/communicate/communicate_mobile.png' alt=' ' />
@@ -8,4 +8,4 @@ const Communicate_mobile = () => {
     )
 }
 
-export default Communicate_mobile
+export default CommunicateMobile

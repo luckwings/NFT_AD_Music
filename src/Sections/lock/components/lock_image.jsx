@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Lock_image = () => {
+const LockImage = () => {
     return (
         <div className='md:ml-[70%] md:block flex justify-center relative mt-[40px]'>
             <img src='./items/lock/lockgroup.png' alt=' ' className='' />
@@ -8,4 +8,4 @@ const Lock_image = () => {
     )
 }
 
-export default Lock_image
+export default LockImage

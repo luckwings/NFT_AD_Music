@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Hero_text = () => {
+const HeroText = () => {
     return (
         <div className='md:w-5/12 pr-[20px]'>
             <p className='text-[70px] font-bold mb-5 leading-[60px]'>Creators earn crypto, fans earn creds.</p>
@@ -11,4 +11,4 @@ const Hero_text = () => {
     )
 }
 
-export default Hero_text
+export default HeroText

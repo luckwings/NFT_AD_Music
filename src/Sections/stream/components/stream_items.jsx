@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Stream_items = () => {
+const StreamItems = () => {
     return (
         <div className='flex justify-center relative'>
             <img src='./items/stream/globe.png' alt=' ' className='w-[30px] h-[30px] absolute left-[20px]' />
@@ -11,4 +11,4 @@ const Stream_items = () => {
     )
 }
 
-export default Stream_items
+export default StreamItems

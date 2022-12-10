@@ -1,7 +1,7 @@
 import React from 'react'
 
-import StreamItems from './components/stream_items'
-import StreamText from './components/stream_text'
+import StreamItems from './components/streamItems'
+import StreamText from './components/streamText'
 
 const Stream = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import RockImage from './components/rock_image'
-import RockVideo from './components/rock_video'
+import RockImage from './components/rockImage'
+import RockVideo from './components/rockVideo'
 
 const Rock = () => {
     return (

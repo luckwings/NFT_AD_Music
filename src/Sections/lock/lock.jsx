@@ -1,9 +1,9 @@
 import React from 'react'
 
-import LockImage from './components/lock_image'
-import LockImport from './components/lock_import'
+import LockImage from './components/lockImage'
+import LockImport from './components/lockImport'
 import Mobile from './components/mobile'
-import SmallPipe from './components/small_pipe'
+import SmallPipe from './components/smallPipe'
 
 const Lock = () => {
     return(

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import ArtComponent from './components/art_component'
-import ArtVideo from './components/art_video'
+import ArtComponent from './components/artComponent'
+import ArtVideo from './components/artVideo'
 
 const Art = () => {
     return (

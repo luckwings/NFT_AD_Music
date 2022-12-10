@@ -1,7 +1,7 @@
 import React from 'react'
 
-import AppText from './components/app_text'
-import AppMobile from './components/app_mobile'
+import AppText from './components/appText'
+import AppMobile from './components/appMobile'
 
 const Get_app = () => {
     return (

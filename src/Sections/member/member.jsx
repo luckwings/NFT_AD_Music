@@ -1,7 +1,7 @@
 import React from 'react'
 
-import MemberMark from './components/member_mark'
-import MemberText from './components/member_text'
+import MemberMark from './components/memberMark'
+import MemberText from './components/memberText'
 
 const Member = () => {
     return (

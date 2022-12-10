@@ -1,7 +1,7 @@
 import React from 'react'
 
-import DancingImage from './components/dancing_image'
-import DancingText from './components/dancing_text'
+import DancingImage from './components/dancingImage'
+import DancingText from './components/dancingText'
 
 const Dancing = () => {
     return(

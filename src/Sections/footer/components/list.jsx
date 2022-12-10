@@ -15,7 +15,7 @@ const List = () => {
                 </div>
             </div>
             <div className=''>
-                <img src='./items/logo.png' />
+                <img src='./items/logo.png' alt=' ' />
             </div>
         </div>
     )

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Hero_text from './components/hero_text'
-import Hero_video from './components/hero_video'
+import HeroText from './components/heroText'
+import HeroVideo from './components/heroTideo'
 
 const Hero = () => {
     return (
@@ -9,8 +9,8 @@ const Hero = () => {
             <img src='./items/logo.png' alt=' ' className='mb-20' />
             <img src='./items/hero/hero.png' alt=' ' className='block md:hidden' />
             <div className='flex items-center'>
-                <Hero_text />
-                <Hero_video />
+                <HeroText />
+                <HeroVideo />
             </div>
             <img src='./items/hero/big_fan.png' alt=' ' className='mt-10 ml-[40%]'/>
         </div>

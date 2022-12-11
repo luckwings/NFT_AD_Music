@@ -4,7 +4,7 @@ import Hero from "../../Sections/hero/hero";
 import Member from "../../Sections/member/member";
 import Train from "../../Sections/train/train";
 import Communicate from "../../Sections/communicate/communicate";
-import Get_app from "../../Sections/get_app/get_app";
+import GetApp from "../../Sections/getApp/getApp";
 import Tech from "../../Sections/tech/tech";
 import Lock from "../../Sections/lock/lock";
 import Video from "../../Sections/video/video";
@@ -20,7 +20,7 @@ const LandingPage = () => {
       <Stream />
       <Communicate />
       <Tech />
-      <Get_app />
+      <GetApp />
       <Lock />
       <Video />
       <Footer />

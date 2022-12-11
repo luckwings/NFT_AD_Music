@@ -1,7 +1,7 @@
 import React from 'react'
 
 import HeroText from './components/heroText'
-import HeroVideo from './components/heroTideo'
+import HeroVideo from './components/heroVideo'
 
 const Hero = () => {
     return (

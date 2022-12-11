@@ -17,3 +17,16 @@
 .footer {
   font-family: "Druk Wide medium", sans-serif;
 }
+
+@media only screen and (min-width: 768px) {
+  .footerwrap {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footerwrap {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+}

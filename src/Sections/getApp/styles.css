@@ -19,6 +19,12 @@
   font-size: 150px;
 }
 
+@media only screen and (max-width: 767px) {
+  .bignumber {
+    font-size: 100px;
+  }
+}
+
 .smallnumber {
   font-family: "Druk Wide Bold", sans-serif;
   font-size: 60px;

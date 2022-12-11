@@ -3,11 +3,11 @@ import React from "react";
 const AppText = () => {
   return (
     <div className="md:w-7/12">
-      <div className=" text-[45px] leading-[60px] mb-[40px]">
-        <p className="font-bold title">No Ads.</p>
-        <p className="font-bold title">No Rugs.</p>
-        <p className="hidden md:block font-bold title">You in control.</p>
-        <div className="flex items-end mt-[30px] relative">
+      <div className="leading-[60px] mb-[40px]">
+        <p className="title leading-[0.6] md:text-[35px] text-[30px] font-black mb-[30px] 2xl:mb-[20px] mt-[30px] md:mt-0">No Ads.</p>
+        <p className="title leading-[0.6] md:text-[35px] text-[30px] font-black mb-[30px] 2xl:mb-[20px] mt-[30px] md:mt-0">No Rugs.</p>
+        <p className="hidden md:block title leading-[0.6] md:text-[35px] text-[30px] font-black mb-[30px] 2xl:mb-[20px] mt-[30px] md:mt-0">You in control.</p>
+        <div className="flex items-end mt-[40px] relative">
           <p className="bignumber text-[#0000ff]">80</p>
           <p className="creator_pro mb-[-30px] font-bold text-[#0000ff]">%</p>
         </div>

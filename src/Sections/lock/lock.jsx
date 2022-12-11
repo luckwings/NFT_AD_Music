@@ -9,7 +9,7 @@ import './styles.css'
 
 const Lock = () => {
     return(
-        <div className='max-w-[600px] m-auto relative'>
+        <div className='max-w-[600px] w-[90%] m-auto relative'>
             <LockImage />
             <LockImport />
             <SmallPipe />

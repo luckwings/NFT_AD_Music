@@ -2,7 +2,7 @@ import React from 'react'
 
 const DancingText = () => {
     return (
-        <div className='md:w-6/12 relative'>
+        <div className='md:w-6/12 relative md:mt-[0] mt-[100px]'>
             <div className='flex mb-5'>
                 <div className='flex'>
                     <img src='./items/video/dancing/eth.png' alt=' ' className='w-[100px] h-[100px]' />

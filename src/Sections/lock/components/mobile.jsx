@@ -6,8 +6,8 @@ const Mobile = () => {
             <div className='relative items-center'>
                 <img src='./items/app/app.png' alt=' ' className='w-[300px]' />
                 <img src='./items/app/phonecase.svg' alt=' ' className='absolute w-[300px] top-[-30px]' />
-                <img src='./items/app/app_circle.png' alt=' ' className='absolute top-[550px] right-[-80px]' />
-                <img src='./items/app/X.png' alt=' ' className='absolute top-[0] top-[80px] right-[-20px]' />
+                <img src='./items/app/app_circle.png' alt=' ' className='absolute max-w-[120px] top-[550px] right-[-60px]' />
+                <img src='./items/app/X.png' alt=' ' className='absolute top-[0] max-w-[50px] top-[80px] right-[-10px]' />
             </div>
         </div>
     )

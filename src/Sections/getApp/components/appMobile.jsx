@@ -2,7 +2,7 @@ import React from 'react'
 
 const AppMobile = () => {
     return (
-        <div className='md:flex hidden md:w-6/12'>
+        <div className='md:w-5/12 md:flex hidden'>
             <div className='relative items-center'>
                 <img src='./items/app/app.png' alt=' ' className='max-w-[280px]' />
                 <img src='./items/app/app_circle.png' alt=' ' className='absolute top-[350px] right-[-80px]' />

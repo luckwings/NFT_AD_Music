@@ -5,7 +5,7 @@ import MemberText from './components/memberText'
 
 const Member = () => {
     return (
-        <div className='px-[100px] block'>
+        <div className='md:px-[100px] px-[20px] block'>
             <div className='flex items-center'>
                 <MemberMark />
                 <MemberText />

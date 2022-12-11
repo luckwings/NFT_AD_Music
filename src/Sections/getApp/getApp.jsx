@@ -5,7 +5,7 @@ import AppMobile from './components/appMobile'
 
 const GetApp = () => {
     return (
-        <div className='md:flex justify-center w-[100%] lg:px-[200px] xl:px-[300px] px-[20px] gap-[50px]'>
+        <div className='md:flex justify-center w-[100%] px-[20px] md:px-[50px] lg:px-[100px] xl:px-[300px] gap-[50px]'>
             <AppText />
             <AppMobile />
         </div>

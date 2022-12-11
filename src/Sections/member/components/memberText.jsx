@@ -2,7 +2,7 @@ import React from "react";
 
 const MemberText = () => {
   return (
-    <div className="md:w-7/12 lg:text-[65px] md:text-[40px] text-[30px] font-bold md:-ml-[80px] lg:-ml-[120px] xl:-ml-[160px]">
+    <div className="md:w-7/12 lg:text-[65px] md:text-[40px] text-[30px] font-black md:-ml-[80px] lg:-ml-[120px] xl:-ml-[160px]">
       <p className="">Offer your fans monthly memberships.</p>
       <div className="flex mt-10">
         <div className="mr-5">

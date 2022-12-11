@@ -7,7 +7,7 @@ import SmallPipe from './components/smallPipe'
 
 const Lock = () => {
     return(
-        <div className='mb-40'>
+        <div className='mb-40 px-[20px] md:px-[100px] lg:px-[200px] xl:px-[400px]'>
             <LockImage />
             <LockImport />
             <SmallPipe />

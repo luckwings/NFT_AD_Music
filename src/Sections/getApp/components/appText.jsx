@@ -2,7 +2,7 @@ import React from 'react'
 
 const AppText = () => {
     return (
-        <div className='md:w-6/12 text-[65px] leading-[60px] mb-[40px]'>
+        <div className='md:w-7/12 text-[45px] leading-[60px] mb-[40px] 2xl:pl-[200px]'>
             <p className='font-bold'>No Ads.</p>
             <p className='font-bold'>No Rugs.</p>
             <p className='hidden md:block font-bold'>You in control.</p>

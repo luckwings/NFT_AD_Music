@@ -5,7 +5,7 @@ import StreamText from './components/streamText'
 
 const Stream = () => {
     return (
-        <div className='mb-20 md:hidden block'>
+        <div className='mt-[300px] mb-[100px] md:hidden block'>
             <StreamText />
             <StreamItems />
         </div>

@@ -10,7 +10,7 @@ const Communicate = () => {
         <CommunicateMobile />
         <CommunicateList />
       </div>
-      <div className="md:flex hidden absolute lg:bottom-[0px] xl:bottom-[-50px] 2xl:bottom-[-100px] bottom-[0px] right-[-100px] lg:right-[-200px] xl:right-[-200px] 2xl:right-[-280px] w-[400px] lg:w-[600px] xl:w-[700px] 2xl:w-[1000px]">
+      <div className="absolute bottom-[700px] lg:bottom-[0px] xl:bottom-[-50px] 2xl:bottom-[-100px] md:bottom-[0px] right-[-300px] md:right-[-100px] lg:right-[-200px] xl:right-[-200px] 2xl:right-[-280px] w-[500px] md:w-[400px] lg:w-[600px] xl:w-[700px] 2xl:w-[1000px]">
         <img src="./items/communicate/pip.png" alt="" className="" />
       </div>
     </div>

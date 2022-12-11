@@ -10,7 +10,7 @@ const DancingText = () => {
                 </div>
                 <img src='./items/video/dancing/flow.png' alt=' ' className='absolute right-[-100px] bottom-[-500px] md:top-[-100px]' />
             </div>
-            <p className='2xl:text-[65px] 2xl:leading-[60px] text-[45px] leading-[50px] font-bold mb-5'>Crypto is here to stay.</p>
+            <p className='title leading-[1.3] md:text-[35px] text-[30px] font-black mb-[30px] 2xl:mb-[20px] mt-[30px] md:mt-0'>Crypto is here to stay.</p>
             <p className='md:block hidden text-[17px]'>We are doing this to eliminate the middle man, so case in point, we take zero commission, your earning are yours, fully.</p>
         </div>
     )

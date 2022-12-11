@@ -5,9 +5,11 @@ import LockImport from './components/lockImport'
 import Mobile from './components/mobile'
 import SmallPipe from './components/smallPipe'
 
+import './styles.css'
+
 const Lock = () => {
     return(
-        <div className='mb-40 px-[20px] md:px-[100px] lg:px-[200px] xl:px-[400px]'>
+        <div className='max-w-[600px] m-auto relative'>
             <LockImage />
             <LockImport />
             <SmallPipe />

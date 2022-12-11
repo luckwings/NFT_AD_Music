@@ -2,20 +2,15 @@ import React from "react";
 
 const MemberText = () => {
   return (
-    <div className="md:w-7/12 lg:text-[65px] md:text-[40px] text-[30px] font-black md:-ml-[80px] lg:-ml-[120px] xl:-ml-[160px]">
-      <p className="">Offer your fans monthly memberships.</p>
-      <div className="flex mt-10">
+    <div className="w-[calc(100% - 200px)]">
+      <p className="title leading-[1.3] md:text-[35px] text-[30px] font-black mb-[20px] mt-[30px] md:mt-0">Offer your fans monthly memberships.</p>
+      <div className="flex">
         <div className="mr-5">
-          <p className="mb-10">All paid in ETH.</p>
-          <p className="text-[17px] font-thin">
+          <p className="title leading-[1.3] md:text-[25px] lg:text-[30px] text-[30px] font-black mb-[30px] 2xl:mb-[20px] md:mt-0'">All paid in ETH.</p>
+          <p className="mb-[15px] 2xl:mb-[20px] hidden md:block text-[15px] 2xl:text-[20px]">
             Yes, that's right, all paid in ETH directly into your wallet!
           </p>
         </div>
-        <img
-          src="./items/member/small_fan.png"
-          alt=" "
-          className="absolute md:right-[100px] lg:right-[150px] xl:right-[200px] md:block hidden"
-        />
       </div>
     </div>
   );

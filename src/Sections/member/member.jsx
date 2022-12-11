@@ -1,18 +1,26 @@
-import React from 'react'
+import React from "react";
 
-import MemberMark from './components/memberMark'
-import MemberText from './components/memberText'
+import MemberMark from "./components/memberMark";
+import MemberText from "./components/memberText";
+
+import "./styles.css";
 
 const Member = () => {
-    return (
-        <div className='md:px-[100px] px-[20px] block'>
-            <div className='flex items-center'>
-                <MemberMark />
-                <MemberText />
-            </div>
-            <img src='./items/member/member_mark.png' alt=' ' className='block md:hidden' />
-        </div>
-    )
-}
+  return (
+    <div className="max-w-[1000px] w-[90%] m-auto relative">
+      <div className="fanwrap md:items-center md:gap-[100px] ">
+        <MemberMark />
+        <MemberText />
+      </div>
+      <div className="absolute right-[-10px] bottom-[50px] hidden md:block">
+        <img
+          src="./items/member/small_fan.png"
+          alt=""
+          width="70px"
+        />
+      </div>
+    </div>
+  );
+};
 
-export default Member
+export default Member;

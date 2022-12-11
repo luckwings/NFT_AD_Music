@@ -1,0 +1,52 @@
+.app-wrap {
+  border: 1px solid;
+  border-radius: 10px;
+  gap: 15px;
+  padding: 5px 50px;
+  width: fit-content;
+  display: flex;
+}
+
+.app-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.bignumber {
+  font-family: "Druk Wide Bold", sans-serif;
+  font-size: 150px;
+}
+
+.smallnumber {
+  font-family: "Druk Wide Bold", sans-serif;
+  font-size: 60px;
+}
+
+.creator_pro {
+  font-family: "Druk Wide Bold", sans-serif;
+  font-size: 30px;
+}
+
+.service_pro {
+  font-family: "Druk Wide Bold", sans-serif;
+  font-size: 15px;
+}
+
+.creator_title {
+  font-family: "Druk Wide", sans-serif;
+  font-size: 20px;
+}
+
+.service_title {
+  font-family: "Druk Wide", sans-serif;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .app-wrap {
+    width: 100%;
+    justify-content: center;
+  }
+}
